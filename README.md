@@ -7,10 +7,16 @@
 Скриншоты из Allure отчета:
 
 ### Статистика
+<img width="1217" height="569" alt="image" src="https://github.com/user-attachments/assets/db91ee08-01ea-4612-bd88-3dd94fc0c272" />
+<img width="1201" height="562" alt="image" src="https://github.com/user-attachments/assets/1afbed91-c810-4150-8792-1b47cc570b64" />
+
+
 
 ### Детали позитивного тест-кейса
+<img width="1230" height="372" alt="image" src="https://github.com/user-attachments/assets/2aa2a50e-6928-4d6e-ab0e-36e4cf49758c" />
 
 ### Детали негативного тест-кейса
+<img width="1215" height="402" alt="image" src="https://github.com/user-attachments/assets/001bb070-d291-45a9-a561-9abcab9237ae" />
 
 
 ## Технический стек
@@ -36,7 +42,7 @@
 
 ```bash
 # Клонируем репозиторий
-git clone https://github.com/kwiatostana/Tests-Simbirsoft
+git clone https://github.com/kwiatostana/simbirsoft-tests
 cd simbirsoft-tests
 
 # Устанавливаем зависимости
@@ -69,7 +75,6 @@ pytest -v
 │   └── form_page.py        # Класс страницы с формой
 ├── reports/                # HTML отчёты PyTest
 ├── allure-results/         # Результаты выполнения тестов для Allure
-├── screenshots/            # Скриншоты, прикрепляемые к отчетам
 ├── tests/                  # Тестовые сценарии
 │   ├── __init__.py
 │   └── test_form_fields.py # Основные тесты формы
